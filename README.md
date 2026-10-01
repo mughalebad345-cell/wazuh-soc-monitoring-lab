@@ -40,3 +40,11 @@ Security Alerts & Investigation
 ## Disclaimer
 
 This project is created strictly for educational purposes in an authorized local lab environment.
+
+## Failed Login Detection
+
+Wazuh successfully detected three failed Windows login attempts from the monitored endpoint `Windows-Lab-01`.
+
+The events were identified as authentication failures caused by an unknown user or incorrect password.
+
+![Failed Login Detection](screenshots/05-failed-login-detection.png)
