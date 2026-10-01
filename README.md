@@ -68,3 +68,15 @@ The event was identified as:
 - Agent: `Windows-Lab-01`
 
 ![File Creation Detection](screenshots/07-file-created-detection.png)
+
+## File Deletion Detection
+
+Wazuh successfully detected the deletion of a monitored file from `C:\Wazuh-Test`.
+
+The event was identified as:
+
+- Rule: `File deleted`
+- Rule ID: `553`
+- Agent: `Windows-Lab-01`
+
+![File Deletion Detection](screenshots/08-file-deleted-detection.png)
