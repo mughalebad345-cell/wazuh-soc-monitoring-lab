@@ -106,3 +106,19 @@ The event details showed:
 This demonstrates how Wazuh can be used to investigate parent-child process relationships on monitored endpoints.
 
 ![Process Investigation](screenshots/10-notepad-process-details.png)
+
+## Windows Defender Malware Detection
+
+Windows Defender was integrated with Wazuh by collecting events from the Defender Operational event channel.
+
+A safe EICAR antivirus test file was used to generate a controlled detection event.
+
+Wazuh successfully received and analyzed the Defender detection event.
+
+- Windows Event ID: `1116`
+- Wazuh Rule: `Windows Defender: Antimalware platform detected potentially unwanted software`
+- Rule ID: `62123`
+- Rule Level: `12`
+- Agent: `Windows-Lab-01`
+
+![Windows Defender Malware Detection](screenshots/11-defender-malware-detection.png)
