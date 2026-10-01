@@ -147,8 +147,8 @@ The project was performed in a controlled and authorized lab environment.
 
 Detailed lab documentation is available here:
 
-[View Lab Documentation](docs/lab-documentation.md)
+[View Lab Documentation](docs/wazuh-soc-lab-documentation.md)
 
 Configuration examples:
 
-[View Wazuh Agent Configuration](configs/wazuh-agent-config.conf)
+[View Wazuh Agent Configuration](configs/wazuh-agent-config-snippets.conf)
