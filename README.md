@@ -80,3 +80,15 @@ The event was identified as:
 - Agent: `Windows-Lab-01`
 
 ![File Deletion Detection](screenshots/08-file-deleted-detection.png)
+
+## Process Creation Monitoring
+
+Windows process creation auditing was enabled and Wazuh successfully detected newly created processes on the monitored endpoint.
+
+The events were identified as:
+
+- Rule: `A process was created`
+- Rule ID: `67027`
+- Agent: `Windows-Lab-01`
+
+![Process Creation Detection](screenshots/09-process-creation-detection.png)
