@@ -92,3 +92,17 @@ The events were identified as:
 - Agent: `Windows-Lab-01`
 
 ![Process Creation Detection](screenshots/09-process-creation-detection.png)
+
+## Process Investigation
+
+Wazuh detected the execution of `notepad.exe` on the monitored Windows endpoint.
+
+The event details showed:
+
+- Process: `C:\Windows\System32\notepad.exe`
+- Parent Process: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`
+- Agent: `Windows-Lab-01`
+
+This demonstrates how Wazuh can be used to investigate parent-child process relationships on monitored endpoints.
+
+![Process Investigation](screenshots/10-notepad-process-details.png)
