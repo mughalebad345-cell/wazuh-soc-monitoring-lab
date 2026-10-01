@@ -122,3 +122,33 @@ Wazuh successfully received and analyzed the Defender detection event.
 - Agent: `Windows-Lab-01`
 
 ![Windows Defender Malware Detection](screenshots/11-defender-malware-detection.png)
+
+## Project Summary
+
+This project demonstrates a complete beginner-level SOC monitoring lab using Wazuh.
+
+The lab successfully covered:
+
+- Wazuh server deployment
+- Windows endpoint monitoring
+- Failed login detection
+- File Integrity Monitoring
+- File creation, modification, and deletion detection
+- Process creation monitoring
+- Parent-child process investigation
+- Windows Defender integration
+- Safe EICAR test detection
+- Centralized security event investigation
+
+The project was performed in a controlled and authorized lab environment.
+
+
+## Documentation
+
+Detailed lab documentation is available here:
+
+[View Lab Documentation](docs/lab-documentation.md)
+
+Configuration examples:
+
+[View Wazuh Agent Configuration](configs/wazuh-agent-config.conf)
