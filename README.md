@@ -56,3 +56,15 @@ Wazuh File Integrity Monitoring successfully detected a change made to the monit
 The detected event was classified as an integrity checksum change.
 
 ![File Integrity Monitoring](screenshots/06-file-integrity-monitoring.png)
+
+## File Creation Detection
+
+Wazuh successfully detected the creation of a new file inside the monitored directory `C:\Wazuh-Test`.
+
+The event was identified as:
+
+- Rule: `File added to the system`
+- Rule ID: `554`
+- Agent: `Windows-Lab-01`
+
+![File Creation Detection](screenshots/07-file-created-detection.png)
