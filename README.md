@@ -48,3 +48,11 @@ Wazuh successfully detected three failed Windows login attempts from the monitor
 The events were identified as authentication failures caused by an unknown user or incorrect password.
 
 ![Failed Login Detection](screenshots/05-failed-login-detection.png)
+
+## File Integrity Monitoring
+
+Wazuh File Integrity Monitoring successfully detected a change made to the monitored file inside `C:\Wazuh-Test`.
+
+The detected event was classified as an integrity checksum change.
+
+![File Integrity Monitoring](screenshots/06-file-integrity-monitoring.png)
